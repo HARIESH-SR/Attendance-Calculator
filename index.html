@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Attendance Calculator</h1>
+    <div id="main_cont">
+    <div>
+    <label for="max_hours">Enter the Maximum Hours</label>
+    <input id ="max_hours" type="number" id ="a">
+    </div>
+    <div>
+    <label for="atd_hours">Enter the Attended Hours</label>
+    <input id ="atd_hours" type="number" id ="b">
+    </div>
+    <div>
+    <label for="abs_hours">Enter the Hours Going to be Absent</label>
+    <input id="abs_hours" type="number" id ="c">
+    </div>
+    <div>
+        <button type ="submit" onclick="d()"> Calculate</button>
+    </div>
+    
+    <p id="current">
+        Current Percentage: <span id="curr_value">NaN<span>
+    </p>
+    <p id="after">
+         After Absent Percentage: <span id="after_value">NaN
+<span>    </p>
+</div>
+    <script src = "script.js"></script>
+
+    
+</body>
+</html>
