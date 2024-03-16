@@ -10,20 +10,22 @@
     <h1>Attendance Calculator</h1>
     <div id="main_cont">
     <div>
-    <label for="max_hours">Enter the Maximum Hours</label>
-    <input id ="max_hours" type="number" id ="a">
+    <label for="max_hours">Enter the Maximum Hours <span id="asterisk">*</span></label>
+    <input id ="max_hours" type="number">
     </div>
     <div>
-    <label for="atd_hours">Enter the Attended Hours</label>
-    <input id ="atd_hours" type="number" id ="b">
+    <label for="atd_hours">Enter the Attended Hours <span id="asterisk">*</span></label>
+    <input id ="atd_hours" type="number">
     </div>
     <div>
     <label for="abs_hours">Enter the Hours Going to be Absent</label>
-    <input id="abs_hours" type="number" id ="c">
+    <input id="abs_hours" type="number">
     </div>
     <div>
         <button type ="submit" onclick="d()"> Calculate</button>
     </div>
+
+
     
     <p id="current">
         Current Percentage: <span id="curr_value">N/A</span>

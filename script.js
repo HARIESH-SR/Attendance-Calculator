@@ -8,8 +8,29 @@ function d(){
     if (max_hours == ''){
         alert("Enter the maximum hours")
     }
+    else if (Number(max_hours)<=0){
+        alert("Maximum Hours should be greater than 0")
+    }
+    else if (Number(max_hours) != Math.floor(Number(max_hours))){
+        alert("Maximum Hours should be a whole number.")
+    }
     else if (atd_hours == ''){
         alert("Enter the Attended hours")
+    }
+    else if (Number(atd_hours)<0){
+        alert("Attended Hours should be greater than or equal to 0")
+    }
+    else if (Number(atd_hours) != Math.floor(Number(atd_hours))){
+        alert("Attended Hours should be a whole number.")
+    }
+    else if(Number(max_hours)<Number(atd_hours)){
+        alert("Attended Hours should be lesser than or equal to Maximum hours.")
+    }
+    else if (Number(abs_hours)<0){
+        alert("Hours going to be absent should be greater than or equal to 0")
+    }
+    else if (Number(abs_hours) != Math.floor(Number(abs_hours))){
+        alert("Hours going to be absent should be a whole number.")
     }
     else{
         let current=document.getElementById("curr_value");
