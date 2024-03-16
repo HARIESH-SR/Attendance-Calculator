@@ -77,7 +77,8 @@ button:hover{
    opacity: 0.9; 
 }
 #hours{
-    margin-top: 0px;
+    margin-top: -2px;
+    line-height: 25px;
     
 }
 #hours_value{
