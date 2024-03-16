@@ -70,9 +70,20 @@ input{
 
 }
 #after>span{
-    color: red;
+    color: brown;
     font-weight: bold;
 }
 button:hover{
    opacity: 0.9; 
+}
+#hours{
+    margin-top: 0px;
+    
+}
+#hours_value{
+    color: blue;
+    font-weight: bold;
+}
+input:hover{
+    border-color: rgb(38, 86, 87);
 }
