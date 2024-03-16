@@ -43,7 +43,7 @@ after.innerHTML=(Number(atd_hours)/(Number(max_hours)+Number(abs_hours))*100).to
         }
         
     }
-
+    temp2.scrollIntoView()
    
 
 }
